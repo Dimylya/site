@@ -2,6 +2,7 @@
   background-image: url("../../assets/images/promotion/Background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: Roboto, sans-serif;
 }
 
 .promotion__container{
@@ -23,7 +24,7 @@
   margin-bottom: 25px;
   font-size: 60px;
   font-weight: 400;
-  color: white;
+  color: var(--white);
 }
 
 .promotion__img{
@@ -39,9 +40,16 @@
 }
 
 .promotion__text{
+  line-height: 34px;
+  font-weight: 400;
   font-size: 18px;
-  color: white;
+  color: var(--white);
   margin-bottom: 98px;
+}
+
+.promotion__text--blue{
+  color: var(--moderateTurquoise);
+  font-weight: 700;
 }
 
 .promotion__form{
@@ -52,7 +60,7 @@
 }
 
 .promotion__input{
-  color: white;
+  color: var(--white);
   background-color: inherit;
   border-bottom: 1px solid white;
   padding-bottom: 13px;
@@ -87,11 +95,30 @@
 .promotion__upload-btn button {
   padding: 39px 137px;
   background-color: inherit;
-
+  color: var(--white);
   font-size: 18px;
   font-weight: 300;
-  color: black;
   line-height: 1.8;
-  border: 2px dashed black;
+  border: 2px dashed var(--darkGray);
   cursor: pointer;
+}
+
+.promotion__upload-btn p{
+  color: var(--white);
+}
+
+.promotion__send-btn{
+  background-color: var(--marsupilami);
+  padding: 19px 50px;
+  max-width: 192px;
+  height: 59px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.promotion__checkbox label{
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 300;
+  
 }
