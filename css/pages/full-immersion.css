@@ -1,0 +1,61 @@
+.full-immersion{
+  background-image: url("../../assets/images/full-immersion/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.full-immersion__container{
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+
+.full-immersion__content{
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+.full-immersion__imgs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 624px;
+}
+
+.full-immersion__imgs img{
+  max-width: 100%;
+  height: auto;
+}
+
+.full-immersion__imgs-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.full-immersion-text{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.full-immersion-text h2{
+  font-size: 62px;
+  font-weight: 400;
+}
+
+.full-immersion-text p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.full-immersion__text-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
