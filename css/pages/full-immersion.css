@@ -2,18 +2,34 @@
   background-image: url("../../assets/images/full-immersion/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  
+  height: 100vh;
 }
 
 .full-immersion__container{
+  height: 100%;
   padding-top: 140px;
   padding-bottom: 70px;
+  display: flex;
+}
+
+.full-immersion__cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
 }
 
 .full-immersion__content{
   display: flex;
-  justify-content: flex-start;
-  gap: 32px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  max-width: 624px;
+}
+
+.full-immersion__image img{
+  max-width: 624px;
+  height: auto;
 }
 
 .full-immersion__imgs{
@@ -21,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 624px;
+  max-width: 624px;
 }
 
 .full-immersion__imgs img{
@@ -36,26 +52,53 @@
   gap: 25px;
 }
 
-.full-immersion-text{
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.full-immersion-text h2{
+.full-immersion__content h2{
   font-size: 62px;
   font-weight: 400;
+  line-height: 100%;
+  color: var(--black);
+  font-family: Archangelsk, sans-serif;
 }
 
-.full-immersion-text p{
+.full-immersion__content p{
   font-size: 18px;
   font-weight: 400;
   line-height: 34px;
+  font-family: Roboto, sans-serif;
+  color: var(--black);
 }
 
 .full-immersion__text-list{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 15px;
+}
+
+.full-immersion__text-list li{
+  list-style-type: none;
+  color: var(--black);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.full-immersion__text-list-element_1::before{
+  content: url('../../assets/images/full-immersion/color_lens.svg');
+}
+
+.full-immersion__text-list-element_2::before{
+  content: url('../../assets/images/full-immersion/auto_awesome.svg');
+}
+
+.full-immersion__text-list-element_3::before{
+  content: url('../../assets/images/full-immersion/auto_awesome_motion.svg');
+}
+
+.full-immersion__text-button{
+  max-width: 194px;
+  height: 59px;
+  background-color: var(--black);
+  color: var(--marsupilami);
 }
 
