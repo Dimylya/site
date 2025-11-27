@@ -1,0 +1,36 @@
+.footer{
+  width: 100%;
+
+}
+
+.footer__container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+}
+
+.footer__license{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__license-list-imgs{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.footer__license-list-links{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.footer__license-list-links>li>a{
+  color: var(--black);
+}
+
+.footer__company-name{
+  width: 100%;
+  background-color: var(--black);
+}
