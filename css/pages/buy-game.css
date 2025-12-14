@@ -59,16 +59,11 @@
   list-style-type: none;
 }
 
-.buy-game__list-text-element1::before{
-  content: url('../../assets/images/buy-game/disk.svg');
-}
-
-.buy-game__list-text-element2::before{
-  content: url('../../assets/images/buy-game/wysiwyg.svg');
-}
-
-.buy-game__list-text-element3::before{
-  content: url('../../assets/images/buy-game/collections.svg');
+.buy-game__list-text-element>div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
 .buy-game__text-platform{
